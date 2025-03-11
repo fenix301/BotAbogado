@@ -1,0 +1,115 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573503368515@s.whatsapp.net',
+    fromMe: false,
+    id: '3A53038CAF8D5B23B5E2',
+    participant: undefined
+  },
+  messageTimestamp: 1741662855,
+  pushName: 'Ed-win',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '573503368515'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4018749e-4e63-4b0a-a49e-d9a679a06676',
+  keyword: 'key_8667cc2f-9c93-42e5-b168-d045612e94d1',
+  answer: 'Buen día, te has comunicado con *Andrés Vasco, Abogado Especialista en Responsabilidad Civil de la Universidad de Medellín*.\n' +
+    '\n' +
+    ' Ingresa una de las opciones \n' +
+    '👉 *1.* Para asesoría jurídica.\n' +
+    '👉 *2.* Para consultar el estado de tu proceso o tramite.\n' +
+    '👉 *3.* Para consultar la dirección de la oficina.\n' +
+    '👉 *4.* Para consultar la página web.\n' +
+    '\n' +
+    '    👋🏽Siempre puedes escribir menú para volver al menú principal \n' +
+    '\n' +
+    'Si tu comunicación no tiene relación con las opciones anteriores, por favor esperar y en la menor brevedad de tiempo posible me comunicare contigo. ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b973c9def442e6ca06f655f0cbba2bf6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573503368515@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0A8AA1F3FC64649F37',
+    participant: undefined
+  },
+  messageTimestamp: 1741662864,
+  pushName: 'Ed-win',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '573503368515'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bcc40217-a95e-4102-9196-cbb9b1089355',
+  keyword: 'key_ea01ec49-6a7a-4f91-86a6-d32b84c18101',
+  answer: 'Por favor indícame tu nombre y el motivo de tu consulta lo más precisa posible para que en la brevedad del tiempo sea resuelta.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4c65fa8596043824ef2aea85d5d00e8a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573503368515@s.whatsapp.net',
+    fromMe: false,
+    id: '3A8E843BCD92935CA1AB',
+    participant: undefined
+  },
+  messageTimestamp: 1741662873,
+  pushName: 'Ed-win',
+  broadcast: false,
+  message: Message {
+    conversation: 'Edwin vasco',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Edwin vasco',
+  from: '573503368515'
+}
