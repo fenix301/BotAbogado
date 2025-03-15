@@ -5,6 +5,20 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MongoAdapter = require('@bot-whatsapp/database/mongo')
 
+// Función para obtener la hora de Colombia
+const getHoraColombia = () => {
+    return new Intl.DateTimeFormat('es-CO', {
+        timeZone: 'America/Bogota',
+        hour: '2-digit',
+        hour12: false
+    }).format(new Date());
+};
+
+// Definir horario permitido
+const horaInicio = 8;  // 8 AM
+const horaFin = 20;    // 8 PM
+const horaActual = parseInt(getHoraColombia(), 10); // Convertir a número
+
 
 const flowGracias = addKeyword(['Gracias','gracias', 'grac']).addAnswer(
     [
@@ -81,4 +95,10 @@ const main = async () => {
     QRPortalWeb()
 }
 
-main()
+if (horaActual >= horaInicio && horaActual < horaFin) {
+    console.log(`✅ Bot iniciado en Colombia. Hora actual: ${horaActual}:00`);
+    main();
+} else {
+    console.log(`⏳ Fuera del horario permitido en Colombia (${horaActual}:00). Cerrando proceso...`);
+    process.exit(0); // Cierra el bot si está fuera del horario
+}
